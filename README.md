@@ -74,7 +74,7 @@ Each command should be run in the terminal within your project's root directory.
 ```sh
 node index.js
 ```
-#### open your favorite browser and paste this url, and Enjoy!:
+#### open your favorite browser and paste this url, Enjoy!:
 
 ```sh
 localhost:3000/login
