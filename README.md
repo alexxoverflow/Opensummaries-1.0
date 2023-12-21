@@ -1,5 +1,5 @@
 # Opensummaries
-Project created by Daniele, Alessandro, Leonardo
+Project created by Daniele Biagio De Luca, Alessandro di Stefano, Leonardo Pulzone
 
 ## Overview
 Opensummaries is an evolving initiative born from the "Progetto TecnologieWeb" of the web technologies course at the University of Naples, designed to facilitate the sharing of educational resources, specifically lecture and university notes. Currently, it focuses on the computer science courses at the Parhenope University of Naples, but it has been architecturally conceived for scalability. This foresight allows for potential expansion to include a broader range of courses and subjects. The project is currently in its beta phase, addressing challenges related to timing and delivery. Its adaptable framework also positions it as a prototype for other universities interested in establishing a similar system for exchanging academic notes.
@@ -24,6 +24,9 @@ NodeJS has been used for the back-end development, with auxiliary frameworks and
 	- Pdf-lib: some methods have been used to sign digitally the documents;
 	- node-notifier;
 	- mongodb: for mongodb connection and data extraction;
+
+ ### UniparthenopeApp/v1/login API: 
+ For secure user authentication, our project leverages the "UniparthenopeApp/v1/login" API. This proprietary, closed-source API developed by the university is integral for managing user access and ensuring data security.
 
 ## Getting Started
 ### Prerequisites
