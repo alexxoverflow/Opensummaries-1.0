@@ -68,3 +68,13 @@ npm install node-notifier
 npm install mongodb
 ```
 Each command should be run in the terminal within your project's root directory. This will ensure that each package is correctly installed in your project's node_modules folder and listed as a dependency in your package.json file.
+
+## Run 
+#### Start the server by running index.js:
+```sh
+node index.js
+```
+#### open your favorite browser and paste this url, and Enjoy!:
+
+```sh
+localhost:3000/login
