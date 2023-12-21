@@ -43,12 +43,20 @@ Necessary for running the back-end. Install via snap or Node.js official website
 2. Navigate to the cloned directory: 
    ```sh
 	cd Opensummaries
-3. Install Node.js(We advise those with more technical experience to install NodeJS via Snap. As of December 21, 2023, Snap consistently offers the most up-to-date versions of NodeJS. Its ease of use in switching between versions is a significant advantage in cases of incompatibility, a feature that distinguishes it from other package managers like apt. However, it's worth noting that NodeJS can also be installed from its official website for those who prefer that method.)
+3. Install Node.js(We advise those with less technical experience to install NodeJS via Snap. As of December 21, 2023, Snap consistently offers the most up-to-date versions of NodeJS. Its ease of use in switching between versions is a significant advantage in cases of incompatibility, a feature that distinguishes it from other package managers like apt. However, it's worth noting that NodeJS can also be installed from its official website for those who prefer that method.)
 
    ```sh
-   sudo snap install node --classic --channel=18
-(if don't work download the 21 version)
-   ```sh
-   sudo snap install node --classic --channel=21
+       sudo snap install node --classic --channel=18
+// (if don't work download the 21 version)
 
-   
+   	sudo snap install node --classic --channel=21
+4. Install all required NPM packages:
+```sh
+npm install express
+npm install express-session
+npm install express-fileupload
+npm install pdf-lib
+npm install node-notifier
+npm install mongodb
+```
+Each command should be run in the terminal within your project's root directory. This will ensure that each package is correctly installed in your project's node_modules folder and listed as a dependency in your package.json file.
