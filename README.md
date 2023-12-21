@@ -17,14 +17,7 @@ Each uploaded document is signed to authenticate the lecture notes or summaries.
 ## Used technologies
 Front-end development has been made with HTML, CSS (for the web pages), and Javascript all this with Bootstrap libraries. 
 Mongodb has been used to store pieces of data such as the name of the uploaded summary, its author and the file name.
-NodeJS has been used for the back-end development, with auxiliary frameworks and middlewares:
-	- Express: for server creation and setting;
-	- Express-session: for session persistance;
-	- Express-fileupload: for file uploading;
-	- Pdf-lib: some methods have been used to sign digitally the documents;
-	- node-notifier;
-	- mongodb: for mongodb connection and data extraction;
-
+NodeJS has been used for the back-end development, with auxiliary frameworks and middlewares.
  #### UniparthenopeApp/v1/login API: 
  For secure user authentication, our project leverages the "UniparthenopeApp/v1/login" API. This proprietary, closed-source API developed by the university is integral for managing user access and ensuring data security.
 
@@ -32,7 +25,9 @@ NodeJS has been used for the back-end development, with auxiliary frameworks and
 ### Prerequisites
 #### Node.js (v18 or above):
 Necessary for running the back-end. Install via snap or Node.js official website.
-#### Express-session: 
+#### Express
+For server creation and its setting.
+#### Express-session:
 For session persistence.
 #### Express-fileupload: 
 For handling file uploads.
