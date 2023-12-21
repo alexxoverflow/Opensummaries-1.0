@@ -25,18 +25,23 @@ NodeJS has been used for the back-end development, with auxiliary frameworks and
 	- node-notifier;
 	- mongodb: for mongodb connection and data extraction;
 
- ### UniparthenopeApp/v1/login API: 
+ #### UniparthenopeApp/v1/login API: 
  For secure user authentication, our project leverages the "UniparthenopeApp/v1/login" API. This proprietary, closed-source API developed by the university is integral for managing user access and ensuring data security.
 
 ## Getting Started
 ### Prerequisites
 #### Node.js (v18 or above):
 Necessary for running the back-end. Install via snap or Node.js official website.
-#### Express-session: For session persistence.
-#### Express-fileupload: For handling file uploads.
-#### Pdf-lib: For PDF manipulation and digital signatures.
-#### node-notifier: For desktop notifications.
-#### Mongodb package: For MongoDB connections.
+#### Express-session: 
+For session persistence.
+#### Express-fileupload: 
+For handling file uploads.
+#### Pdf-lib: 
+For PDF manipulation and digital signatures.
+#### node-notifier: 
+For desktop notifications.
+#### Mongodb package: 
+For MongoDB connections.
 
 
 ### Installation(for linux users)
